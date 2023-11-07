@@ -50,6 +50,11 @@ export default defineConfig({
 
     search: {
       provider: 'local'
+    },
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Made by Puntogris'
     }
   }
 })
