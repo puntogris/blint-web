@@ -5,6 +5,15 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
     "vitepress": "^1.0.0-rc.25"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
   }
 }

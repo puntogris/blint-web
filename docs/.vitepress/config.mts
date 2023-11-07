@@ -4,6 +4,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Blint",
   description: "Android App",
+  head: [
+    [
+      "script",
+      {},
+      `window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`,
+    ],
+    ["script", { defer: "", src: "/_vercel/insights/script.js" }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -17,8 +26,9 @@ export default defineConfig({
       {
         text: 'Versions',
         items: [
-          { text: 'Readme', link: '/versions/' },
-          { text: 'V1.0.0', link: '/versions/v1.0.0.md' },
+          { text: "Readme", link: "/versions/" },
+          { text: "1.1.4", link: "/versions/v1.1.4.md" },
+          { text: "1.0.0", link: "/versions/v1.0.0.md" },
         ],
       },
       {
@@ -35,6 +45,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/puntogris/are-you-a-robot' }
     ],
+
+    logo: "logo.webp",
 
     search: {
       provider: 'local'
