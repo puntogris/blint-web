@@ -31,21 +31,24 @@ No, we use our custom server to store them and prevent a third party accesing yo
 ### How many businesses can I have?
 
 At the moment you can only create up to 10 businesses, but this can change in the future so do not worry.
-    
+
 ### Is my information public?
 
 No! Only you can access the information of your business.
 
 ### Is there a way to delete my account?
 
-Yeah! If you go to the settings screen you will see the menu option to delete all the data we have stored. 
-The app is open source, [here](https://github.com/puntogris/blint/blob/main/app/src/main/java/com/puntogris/blint/feature_store/data/data_source/remote/FirebaseUserApi.kt#L59) is the code that deletes your data. 
+Yeah! If you go to the settings screen you will see the menu option to delete all the data we have stored.
+The app is open source, [here](https://github.com/puntogris/blint/blob/main/app/src/main/java/com/puntogris/blint/feature_store/data/data_source/remote/FirebaseUserApi.kt#L59) is the code that deletes your data.
+
+If you encounter any issues with this operation you can reach me in the e-mail listed below in the contact section.
 
 ## I have another question!
 
 If your question is not solved, we invite you to send us a in-app ticket or reach me by e-mail.
 
 ### Contact me
-You can reach me at:  **puntogrishelp@gmail.com**
+
+You can reach me at: **puntogrishelp@gmail.com**
 
 Send me an e-mail and i will be happy to answer you as soon as i can.
